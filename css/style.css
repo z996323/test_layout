@@ -1,0 +1,180 @@
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway/static/raleway-regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/Montserrat-Light.ttf);
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border: 5px solid rgb(208, 226, 48);
+}
+
+.page-header {
+    width: auto;
+    min-height: 1000px;
+    border: 1px solid rgb(134, 13, 248);
+    padding: 40px 150px;
+    background: url(../img/mountain.jpg);
+}
+
+.header-menu {
+    width: 1200px;
+    min-height: 100px;
+    border: 1px solid rgb(25, 231, 25);
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header-menu-logo {}
+
+.logo {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 181px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo-svg {
+    fill: currentColor;
+}
+
+.logo-txt {
+    font-family: raleway Arial, sans-serif;
+    font-size: 34px;
+    /* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+    /* color: #ffffff; */
+}
+
+.logo:hover {
+    color: #998675;
+}
+
+.logo:active {
+    color: #ffffff;
+}
+
+.header-list {
+    width: 1000px;
+}
+
+.header-menu-references {
+    display: inline;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0px 30px;
+}
+
+.header-menu-references:hover {
+    color: #998675;
+}
+
+.header-menu-references:active {
+    color: #ffffff;
+}
+
+.header-button-basket {
+    width: 18px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.header-button-basket svg {
+    fill: #fff;
+}
+
+.header-button-basket:hover svg {
+    fill: #998675;
+}
+
+.header-button-basket:active svg {
+    fill: #ffffff;
+}
+
+.search-icon-form {
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 30%;
+    position: relative;
+    /*   border: 1px solid #fff; */
+}
+
+.search-icon-form__label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /*   border: 1px solid green; */
+    background-image: url('https://findicons.com/files/icons/2813/flat_jewels/512/search.png');
+    /*   background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent; */
+}
+
+.search-icon-form__label:hover .search-icon-form__svg {
+    fill: gold;
+}
+
+.search-icon-form__label:active .search-icon-form__svg {
+    fill: green;
+}
+
+.search-icon-form__svg {
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+}
+
+.search-icon-form__input {
+    width: 0;
+    min-height: 0;
+    padding: 5px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 40px;
+    left: -119px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial;
+    text-transform: capitalize;
+}
+
+.search-icon-form__input:focus {
+    /*   display: block; */
+    width: 150px;
+    min-height: 20px;
+    transition: width 1s ease;
+    border: 2px solid #fff;
+}
+
+.search-icon-form__input:focus~.search-icon-form__label>.search-icon-form__svg {
+    fill: aqua;
+}
+
+.header-carousel {
+    width: auto;
+    height: 200px;
+    border: 1px solid rgb(228, 15, 15);
+    margin-top: 300px;
+}

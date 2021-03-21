@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'MetrophobicRegular';
+    src: url('/font/metrophobic/Metrophobic.otf');
+    src: local('Metrophobic'),
+         url('/font/metrophobic/Metrophobic.eot?#iefix') format('embedded-opentype'),
+         url('/font/metrophobic/Metrophobic.woff') format('woff'),
+         url('/font/metrophobic/Metrophobic.ttf') format('truetype'),
+         url('/font/metrophobic/Metrophobic.svg#MetrophobicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: '3Dumb';
+    src: url('font/3Dumb/3Dumb.eot');
+    src: local('3Dumb'),
+         url('font/3Dumb/3Dumb.eot?#iefix') format('embedded-opentype'),
+         url('font/3Dumb/3Dumb.woff') format('woff'),
+         url('font/3Dumb/3Dumb.ttf') format('truetype'),
+         url('font/3Dumb/3Dumb.svg#MetrophobicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: '2Dumb';
+    src: url('/font/3Dumb/2Dumb.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'AlexBrush';
+    src: url('/font/alex-brush/AlexBrush-Regular.ttf') format('truetype') ;
+}
+
+@font-face {
+	font-family: 'Capture-it';
+    src: url('/font/Capture-it/Capture_it_2.ttf') format('truetype') ;
+}
+
+@font-face {
+	font-family: 'Poiret_One1';
+    src: url('/font/Poiret_One/PoiretOne-Regular.ttf') format('truetype') ;
+}
+
+@font-face {
+	font-family: 'Alpha-Echo';
+    src: url('/font/Alpha-Echo/alpha_echo.ttf') format('truetype') ;
+}
+
+@font-face {
+	font-family: 'Amerika';
+    src: url('/font/Amerika/AMERIKA_.ttf') format('truetype') ;
+}
+
+
+
+@font-face {
+	font-family: 'Bentham';
+    src: url('/font/Bentham/Bentham-Regular.otf');
+    src: local('Bentham'),
+         url('/font/Bentham/Bentham-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/font/Bentham/Bentham-Regular.woff') format('woff'),
+         url('/font/Bentham/Bentham-Regular.ttf') format('truetype'),
+         url('/font/Bentham/Bentham-Regular.svg#MetrophobicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'BreeSerif-Regular';
+    src: url('/font/bree-serif/BreeSerif-Regular.otf');
+    src: local('BreeSerif-Regular'),
+         url('/font/bree-serif/BreeSerif-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/font/bree-serif/BreeSerif-Regular.woff') format('woff'),
+         url('/font/bree-serif/BreeSerif-Regular.ttf') format('truetype'),
+         url('/font/bree-serif/BreeSerif-Regular.svg#MetrophobicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'grand-hotel';
+    src: url('/font/grand-hotel/GrandHotel-Regular.otf');
+    src: local('grand-hotel'),
+         url('/font/grand-hotel/GrandHotel-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/font/grand-hotel/GrandHotel-Regular.woff') format('woff'),
+         url('/font/grand-hotel/GrandHotel-Regular.ttf') format('truetype'),
+         url('/font/grand-hotel/GrandHotel-Regular.svg#MetrophobicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#column
+{
+ 	-moz-column-count: 2;
+ 	-webkit-column-count: 2;
+ 	column-count: 2;
+ 	column-gap: 50px;
+ 	column-rule: 2px dotted #1d1078;
+}
+
+#column2
+{
+    text-align:justify;
+    -moz-column-width: 15em;
+    -webkit-column-width: 15em;
+    column-width: 15em;
+	column-gap:50px;
+
+}
+
+#column3
+{
+    text-align:justify;
+    -moz-column-width: 15em;
+    -webkit-column-width: 15em;
+    column-width: 15em;
+	column-rule:2px dotted #7F0055;
+
+}
+
+#shadow1 {
+text-shadow:3px -6px #FFAE00;
+}
+#shadow2 {
+text-shadow:3px 2px 10px #FFAE00;
+}
+#shadow3 {
+text-shadow:2px 2px 2px #FFAE00, 2px 2px 15px #1435AD;
+}
+
+#wrap1 {
+-moz-text-overflow:ellipsis;
+-moz-overflow:hidden;
+-webkit-text-overflow:ellipsis;
+-webkit-overflow:hidden;
+text-overflow:ellipsis;
+overflow:hidden;
+}
+#wrap2 {
+-webkit-text-overflow:clip;
+-webkit-overflow:hidden;
+text-overflow:clip;
+overflow:hidden;
+}
+#wrap3 {
+-moz-word-wrap:break-word;
+-webkit-word-wrap:break-word;
+word-wrap:break-word;
+}
