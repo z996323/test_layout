@@ -69,7 +69,7 @@
 }
 
 .header-list {
-    width: 1000px;
+    width: 850px;
 }
 
 .header-menu-references {
@@ -79,7 +79,7 @@
     line-height: 1.2;
     font-weight: 300;
     color: #ffffff;
-    margin: 0px 30px;
+    margin: 0px 15px;
 }
 
 .header-menu-references:hover {
@@ -91,8 +91,8 @@
 }
 
 .header-button-basket {
-    width: 18px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     border: none;
     background-color: transparent;
     outline: none;
@@ -113,8 +113,9 @@
 .search-icon-form {
     width: 30px;
     height: 30px;
-    margin: 0 0 0 30%;
+    /* margin: 0 0 0 30%; */
     position: relative;
+    padding: 5px;
     /*   border: 1px solid #fff; */
 }
 
@@ -127,6 +128,7 @@
     /*   background-size: cover;
     background-repeat: no-repeat;
     background-color: transparent; */
+    margin: 3px auto 0 3px;
 }
 
 .search-icon-form__label:hover .search-icon-form__svg {
