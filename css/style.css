@@ -64,8 +64,18 @@
     color: #ffffff;
 }
 
-.header-list {
-    width: 850px;
+/*.header-list {*/
+    /*width: 850px;*/
+}
+
+.header-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .header-menu-references {
