@@ -357,6 +357,47 @@
     font-weight: 300;
     color: #8c8c8c;
 }
+
+.idea {
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.idea-title {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.idea-txt {
+    width: 1000px;
+    font-family: Montserrat,Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-align: center;
+    margin: 24px 0px 40px 0px;
+}
+
+.fone {
+    width: 1250px;
+    height: 500px;
+    background-image: url(../img/browser_center_10768.png),
+    url(../img/browser_left_10769.png),    url(../img/browser_right_10770.png);
+    background-repeat: no-repeat;
+    background-size: 70%, 51%, 51%;
+    background-position: center, left, right;
+}
 .Purchase-now {
     display: flex;
     justify-content: space-around;
@@ -364,18 +405,26 @@
     height: 150px;
     background-color: #f4f5f8;
     background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
-align-items: center;
+    align-items: center;
 }
 .wordpress {}
 .wordpress-title {
+    margin: 0px 0px 0px 100px;
     font-family: Raleway, Arial, sans-serif;
     font-size: 28px;
     line-height: 1.2;
     font-weight: 400;
     color: #ffffff;;
 }
-.wordpress-waxom {}
+.wordpress-waxom {
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #c7b299;
+}
 .wordpress-txt {
+    margin: 0px 0px 0px 100px;
     font-family: Montserrat, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.2;
@@ -383,6 +432,18 @@ align-items: center;
     color: #615855;
 }
 .Purchase-btn {
-    width: 120px;
-    height: 40px;
+    margin: 0px 100px 0px 0px;
+    border-radius: 3px;
+    width: 170px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #998675;
+    box-shadow: inset 0px -3px 0px 0px #736357;
+
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
 }
