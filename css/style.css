@@ -402,8 +402,6 @@
     align-items: center;
 }
 
-.wordpress {}
-
 .wordpress-title {
     margin: 0px 0px 0px 100px;
     font-family: Raleway, Arial, sans-serif;
@@ -510,18 +508,18 @@
     color: #fff;
 }
 
-.card {
-    width: 320px;
-    border: 1px solid black;
-    position: relative;
-    margin: 30px;
-}
-
 .card-wrapper-top {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0px 375px;
+    padding: 0px 366px;
+}
+
+.card {
+    width: 356px;
+    border: 1px solid black;
+    position: relative;
+    margin: 15px;
 }
 
 /* Другой способ затемнения блока!!!*/
